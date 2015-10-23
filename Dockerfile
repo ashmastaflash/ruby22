@@ -24,4 +24,3 @@ RUN cd /root && ./installRuby.sh
 
 RUN /root/.rbenv/bin/rbenv install 2.2.0
 RUN /root/.rbenv/bin/rbenv global 2.2.0
-RUN ruby -v
